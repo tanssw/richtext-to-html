@@ -1,0 +1,15 @@
+{
+  "name": "richtext-to-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tanssw/richtext-to-html.git",
+  "author": "tanssw",
+  "license": "MIT",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^33.0.0",
+    "@ckeditor/ckeditor5-vue": "^3.0.0",
+    "vite": "^2.8.6",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.13"
+  }
+}
