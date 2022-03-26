@@ -6,7 +6,8 @@
     "author": "tanssw",
     "license": "MIT",
     "scripts": {
-        "start": "vite"
+        "start": "vite",
+        "build": "vite build"
     },
     "dependencies": {
         "@ckeditor/ckeditor5-build-classic": "^33.0.0",

@@ -1,10 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 import Converter from './pages/converter/Converter.vue'
 import NotFound from './pages/error/NotFound.vue'
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
         {path: '/', component: Converter, name: 'Converter'},
         {path: '/404', component: NotFound, name: 'NotFound'},

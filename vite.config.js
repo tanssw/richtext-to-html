@@ -9,6 +9,7 @@ export default ({mode}) => {
         plugins: [vue()],
         server: {
             port: 8080
-        }
+        },
+        base: '/wysiwyg/'
     })
 }
