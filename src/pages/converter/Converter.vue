@@ -6,12 +6,12 @@
                 <span class="mx-6 text-slate-400">-></span>
                 <span class="text-orange-300">1-Line HTML</span>
             </div>
-            <div class="grid grid-cols-5 gap-16 h-full">
-                <div class="col-span-3">
-                    <div class="font-bold text-2xl mb-4">Rich Text</div>
+            <div class="grid grid-cols-2 gap-16 h-full">
+                <div class="prose">
+                    <div class="font-bold text-2xl mb-4 text-white">Rich Text</div>
                     <ckeditor :editor="editor" v-model="editorData" :config="editorConfig"></ckeditor>
                 </div>
-                <div class="col-span-2">
+                <div class="">
                     <div class="flex items-center mb-4">
                         <div class="font-bold text-2xl text-orange-400">1-Line HTML</div>
                         <button @click="copyHTML()" class="ml-6 font-thin px-4 py-1 text-xs rounded-full border border-slate-200 text-slate-200 hover:border-slate-400 hover:text-slate-400 duration-100">

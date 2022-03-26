@@ -9,8 +9,8 @@ body {
 }
 
 .ck-editor__editable_inline {
+    /* @apply prose; */
     color: black;
     min-height: 32em;
     max-height: 32em;
-    overflow: scroll;
 }
